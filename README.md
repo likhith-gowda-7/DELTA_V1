@@ -1,6 +1,6 @@
 # DELTA_V1 — Real-Time Chat Application
 
-![Delta Cover](docs/delta_cover_banner.png)
+![Delta Cover](screenshots/delta_cover_banner.png)
 
 <p align="center">
   <strong>A full-stack, real-time chat application built with the MERN stack and Socket.IO.</strong>
@@ -51,25 +51,25 @@ This project was built during my learning phase to master full-stack web develop
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](docs/screenshots/login_page.png)
+![Login Page](screenshots/login_page.png)
 
 ### Chat Interface — Light Mode
-![Chat Light Mode](docs/screenshots/chat_light_mode.png)
+![Chat Light Mode](screenshots/chat_light_mode.png)
 
 ### Chat Interface — Dark Mode
-![Chat Dark Mode](docs/screenshots/chat_dark_mode.png)
+![Chat Dark Mode](screenshots/chat_dark_mode.png)
 
 ### Group Chat Creation
-![Group Chat Modal](docs/screenshots/group_chat_modal.png)
+![Group Chat Modal](screenshots/group_chat_modal.png)
 
 ### User Search
-![User Search](docs/screenshots/user_search.png)
+![User Search](screenshots/user_search.png)
 
 ---
 
 ## 🏗️ System Architecture
 
-![Architecture Diagram](docs/architecture_diagram.png)
+![Architecture Diagram](screenshots/architecture_diagram.png)
 
 The application follows a three-tier architecture:
 
@@ -190,7 +190,7 @@ DELTA_V1/
 │       ├── Context/        # React Context API (ChatProvider.js)
 │       ├── hooks/          # Custom hooks (useThemeColors.js)
 │       └── Pages/          # Route-level pages (Homepage, ChatPage)
-├── docs/                   # Architecture diagrams and screenshots
+├── screenshots/            # App screenshots and architecture diagrams
 ├── .env                    # Environment variables (Git-ignored)
 ├── .gitignore              # Files excluded from version control
 ├── PROJECT_DOCUMENTATION.md # Deep technical documentation

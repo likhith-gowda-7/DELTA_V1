@@ -23,7 +23,7 @@ DELTA_V1 follows a standard **MERN Stack** (MongoDB, Express, React, Node.js) ar
 
 ### Architecture Overview
 
-![Architecture Diagram](docs/architecture_diagram.png)
+![Architecture Diagram](screenshots/architecture_diagram.png)
 
 ### Three-Tier Breakdown
 
