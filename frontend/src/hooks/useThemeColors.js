@@ -1,0 +1,35 @@
+import { useColorModeValue } from "@chakra-ui/react";
+
+const useThemeColors = () => ({
+  bgMain: useColorModeValue("#F0F2F5", "#111111"),
+  bgPanel: useColorModeValue("white", "#1A1A1A"),
+  textPrimary: useColorModeValue("black", "#E8E8E8"),
+  textSecondary: useColorModeValue("#65676B", "#A8A8A8"),
+  borderColor: useColorModeValue("#E4E6EB", "#2D2D2D"),
+  hoverBg: useColorModeValue("#F0F2F5", "#2A2A2A"),
+  inputBg: useColorModeValue("white", "#2A2A2A"),
+  inputBorder: useColorModeValue("#E4E6EB", "#3A3A3A"),
+  placeholderColor: useColorModeValue("gray.400", "gray.500"),
+  msgSentBg: useColorModeValue("#111111", "#E8E8E8"),
+  msgSentColor: useColorModeValue("#FFFFFF", "#111111"),
+  msgReceivedBg: useColorModeValue("#FFFFFF", "#2A2A2A"),
+  msgReceivedColor: useColorModeValue("#111111", "#E8E8E8"),
+  msgReceivedBorder: useColorModeValue("1px solid #E4E6EB", "1px solid #3A3A3A"),
+  selectedBg: useColorModeValue("black", "white"),
+  selectedColor: useColorModeValue("white", "black"),
+  selectedPreview: useColorModeValue("gray.300", "gray.600"),
+  chatItemBg: useColorModeValue("white", "#1A1A1A"),
+  chatItemHover: useColorModeValue("#E4E6EB", "#2A2A2A"),
+  modalBg: useColorModeValue("white", "#1A1A1A"),
+  btnBg: useColorModeValue("black", "white"),
+  btnColor: useColorModeValue("white", "black"),
+  btnHover: useColorModeValue("gray.800", "gray.200"),
+  btnSecBg: useColorModeValue("gray.100", "#2A2A2A"),
+  btnSecColor: useColorModeValue("black", "#E8E8E8"),
+  btnSecHover: useColorModeValue("gray.200", "#3A3A3A"),
+  skelStart: useColorModeValue("gray.100", "#2A2A2A"),
+  skelEnd: useColorModeValue("gray.200", "#3A3A3A"),
+  labelColor: useColorModeValue("gray.700", "gray.300"),
+});
+
+export default useThemeColors;
